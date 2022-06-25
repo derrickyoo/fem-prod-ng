@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fem-prod-ng/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@fem-prod-ng/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@fem-prod-ng/material": ["libs/material/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
