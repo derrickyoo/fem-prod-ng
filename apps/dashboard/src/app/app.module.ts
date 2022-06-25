@@ -12,6 +12,7 @@ import { RoutingModule } from './routing.module';
 import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-details.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
 import { WidgetsComponent } from './widgets/widgets.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
     MaterialModule,
     RoutingModule,
     StoreModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
