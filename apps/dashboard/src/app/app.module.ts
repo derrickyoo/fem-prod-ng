@@ -4,14 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MaterialModule, materialRoutes } from '@fem/material';
+import { StoreModule } from '@ngrx/store';
 import { CoreDataModule, coreDataRoutes } from '@fem/core-data';
+import { CoreStateModule, coreStateRoutes } from '@fem/core-state';
+import { MaterialModule, materialRoutes } from '@fem/material';
 import { RoutingModule } from './routing.module';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
 import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-details.component';
 import { HomeComponent } from './home/home.component';
-import { CoreStateModule, coreStateRoutes } from '@fem/core-state';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,11 @@ import { CoreStateModule, coreStateRoutes } from '@fem/core-state';
   imports: [
     BrowserModule,
     HttpClientModule,
+    StoreModule,
     CoreDataModule,
+    CoreStateModule,
     MaterialModule,
     RoutingModule,
-    CoreStateModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
