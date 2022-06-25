@@ -45,11 +45,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatSidenavModule,
     MatSliderModule,
     MatSnackBarModule,
+    MatStepperModule,
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatStepperModule,
   ]
 })
 export class MaterialModule {}
