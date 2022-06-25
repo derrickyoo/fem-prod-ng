@@ -9,6 +9,7 @@ import { CoreDataModule, coreDataRoutes } from '@fem-prod-ng/core-data';
 import { RoutingModule } from './routing.module';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.compon
     NxWelcomeComponent,
     WidgetsComponent,
     WidgetsListComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
