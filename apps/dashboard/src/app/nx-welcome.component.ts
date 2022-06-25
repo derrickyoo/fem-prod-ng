@@ -3,7 +3,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 /* eslint-disable */
 
 @Component({
-  selector: 'fem-prod-ng-nx-welcome',
+  selector: 'fem-nx-welcome',
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *

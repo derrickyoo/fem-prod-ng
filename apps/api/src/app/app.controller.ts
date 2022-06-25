@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
-import { IMessage } from '@fem-prod-ng/api-interfaces';
+import { IMessage } from '@fem/api-interfaces';
 
 import { AppService } from './app.service';
 

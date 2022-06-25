@@ -1,7 +1,7 @@
 {
   "projectType": "library",
   "sourceRoot": "libs/core-data/src",
-  "prefix": "fem-prod-ng",
+  "prefix": "fem",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'fem-prod-ng-widgets-details',
+  selector: 'fem-widgets-details',
   templateUrl: './widgets-details.component.html',
   styleUrls: ['./widgets-details.component.scss'],
 })

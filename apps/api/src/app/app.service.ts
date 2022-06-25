@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { IMessage } from '@fem-prod-ng/api-interfaces';
+import { IMessage } from '@fem/api-interfaces';
 
 @Injectable()
 export class AppService {

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "fem-prod-ng",
+  "npmScope": "fem",
   "affected": {
     "defaultBase": "main"
   },
