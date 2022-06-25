@@ -7,10 +7,10 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'widgets', component: WidgetsComponent },
   { path: '**', redirectTo: '/' },
-]
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class RoutingModule { }

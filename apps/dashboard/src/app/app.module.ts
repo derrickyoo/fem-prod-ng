@@ -8,7 +8,6 @@ import { MaterialModule } from '@fem/material';
 import { StoreModule } from '@ngrx/store';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
 import { RoutingModule } from './routing.module';
 import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-details.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
@@ -18,7 +17,6 @@ import { WidgetsComponent } from './widgets/widgets.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NxWelcomeComponent,
     WidgetsComponent,
     WidgetsDetailsComponent,
     WidgetsListComponent,
