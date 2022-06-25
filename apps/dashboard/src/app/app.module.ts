@@ -9,8 +9,9 @@ import { CoreDataModule, coreDataRoutes } from '@fem/core-data';
 import { RoutingModule } from './routing.module';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
-import { HomeComponent } from './home/home.component';
 import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-details.component';
+import { HomeComponent } from './home/home.component';
+import { CoreStateModule, coreStateRoutes } from '@fem/core-state';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,8 @@ import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-detai
     NxWelcomeComponent,
     WidgetsComponent,
     WidgetsListComponent,
-    HomeComponent,
     WidgetsDetailsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +28,7 @@ import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-detai
     CoreDataModule,
     MaterialModule,
     RoutingModule,
+    CoreStateModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
