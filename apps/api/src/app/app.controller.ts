@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
-import { Message } from '@fem-prod-ng/api-interfaces';
+import { IMessage } from '@fem-prod-ng/api-interfaces';
 
 import { AppService } from './app.service';
 
@@ -9,7 +9,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('hello')
-  getData(): Message {
+  getData(): IMessage {
     return this.appService.getData();
   }
 }
